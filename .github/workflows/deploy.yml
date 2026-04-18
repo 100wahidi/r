@@ -1,3 +1,4 @@
+"""
 name: Deploy React App to GitHub Pages
 
 on:
@@ -34,3 +35,4 @@ jobs:
           publish_dir: ./docs # Ensure correct path for /docs folder
           allow_empty_commit: true # Avoid errors if no changes are detected
           force_orphan: false # Do not create a new branch
+"""
